@@ -46,6 +46,21 @@ public class Exam {
 
 		}
 
+		// 2.
+		
+		int score = 85;
+		String result = (!(score>90)) ? "가" : "나";
+		System.out.println(result);
+		
+		// 6. 
+		
+		int xx =10;
+		int yy = 5;
+		System.out.println((xx>7) && (yy<=5));  		// true
+		System.out.println((xx%3 ==2) || (yy%2 != 1));	// false
+			
+		
+		
 	}
 
 }

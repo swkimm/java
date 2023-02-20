@@ -24,6 +24,12 @@ public class IncreaseDecreaseExample {
 		System.out.println("x= " + x);
 		
 		System.out.println("------------------");
+		
+		z = ++x;
+		System.out.println("z= " + z);
+		System.out.println("x= " + x);
+		
+		System.out.println("------------------");
 		z = ++x + y++;
 		System.out.println("z= " + z);
 		System.out.println("x= " + x);

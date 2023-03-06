@@ -1,5 +1,6 @@
 package ch06.lecture.p10access.package1;
 
-public class MyClass07 {
+// default, package
+class MyClass07 {
 
 }

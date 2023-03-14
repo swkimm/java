@@ -2,6 +2,7 @@ package ch16.lecture.p03reference;
 
 public class C03MethodReference {
 	public static void main(String[] args) {
+		// 인스턴스 메소드 참조
 		MyInterface04 o1 = a -> System.out.println(a);
 		
 		MyClass03 s1 = new MyClass03();
@@ -17,7 +18,6 @@ public class C03MethodReference {
 		MyInterface03 o8 = (a, b) -> s1.method2(b, a);
 	}
 }
-
 interface MyInterface04 {
 	void action(int a);
 }

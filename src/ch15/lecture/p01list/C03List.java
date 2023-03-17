@@ -33,7 +33,6 @@ public class C03List {
 				System.out.println(list2.get(i).get(j));
 			}
 		}
-		
 		// 향상된 for
 		System.out.println("향상된 for");
 		for (List<String> list : list2) {

@@ -43,8 +43,9 @@ public class C01Map {
 		map.forEach((k,v) -> System.out.println(k + "," + v));
 		
 		System.out.println("entrySet 메소드");
-		Set<Map.Entry<String, String>> entries = map.entrySet();
-		for(Map.Entry<String, String> entry : entries) {
+//		Set<Map.Entry<String, String>> entries = map.entrySet();
+		var entries = map.entrySet();
+		for(var entry : entries) {
 			System.out.println(entry.getKey() + " : " + entry.getValue() );
 		}
 		

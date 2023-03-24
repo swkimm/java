@@ -10,6 +10,8 @@ public class C05BufferedWriter {
 		FileWriter fw = new FileWriter(name);
 		BufferedWriter bw = new BufferedWriter(fw);) {
 			
+			
+			
 			bw.write("hello World");
 			bw.newLine();
 			

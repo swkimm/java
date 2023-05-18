@@ -1,6 +1,6 @@
 package codetest.programmers;
 
-class Solution849 {
+class Solution1849 {
     public int solution(String num_str) {
         int answer = 0;
         String str[] = num_str.split("");
